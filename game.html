@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link id='favicon' rel="shortcut icon" href="sample.png" type="image/x-png">
+    <title>Stone Paper Scissor - Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <input type="radio" id="stone-stone" name="stone-paper-scissors" />
+      <input type="radio" id="stone-paper" name="stone-paper-scissors" />
+      <input type="radio" id="stone-scissors" name="stone-paper-scissors" />
+      <input type="radio" id="paper-stone" name="stone-paper-scissors" />
+      <input type="radio" id="paper-paper" name="stone-paper-scissors" />
+      <input type="radio" id="paper-scissors" name="stone-paper-scissors" />
+      <input type="radio" id="scissors-stone" name="stone-paper-scissors" />
+      <input type="radio" id="scissors-paper" name="stone-paper-scissors" />
+      <input type="radio" id="scissors-scissors" name="stone-paper-scissors" />
+
+      <div>
+        <h1>🎯🎮 Stone &nbsp;Paper &nbsp;Scissor &nbsp;- &nbsp;Game 🎮🎯</h1>
+        <div id="hands">
+          <div class="hand" id="computer-hand">
+            <div class="fist"></div>
+            <div class="finger finger-1"></div>
+            <div class="finger finger-2"></div>
+            <div class="finger finger-3"></div>
+            <div class="finger finger-4"></div>
+            <div class="thumb"></div>
+            <div class="arm"></div>
+          </div>
+
+          <div class="hand" id="user-hand">
+            <div class="fist"></div>
+            <div class="finger finger-1"></div>
+            <div class="finger finger-2"></div>
+            <div class="finger finger-3"></div>
+            <div class="finger finger-4"></div>
+            <div class="thumb"></div>
+            <div class="arm"></div>
+          </div>
+
+          <div id="symbol">
+            <div>
+              <label for="stone-stone">✊</label>
+              <label for="paper-stone">✊</label>
+              <label for="scissors-stone">✊</label>
+            </div>
+            <div>
+              <label for="stone-paper">🖐️</label>
+              <label for="paper-paper">🖐️</label>
+              <label for="scissors-paper">🖐️</label>
+            </div>
+            <div>
+              <label for="stone-scissors">✌</label>
+              <label for="paper-scissors">✌</label>
+              <label for="scissors-scissors">✌</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="text">
+        <h2></h2><br>
+        <b><input class="game" type="reset" value="Refresh this Round ... !!" /></b>
+      </div>
+    </form>
+  </body>
+</html>
